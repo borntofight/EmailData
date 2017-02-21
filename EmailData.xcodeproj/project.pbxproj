@@ -1,0 +1,474 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04707A4A1E42DE86008E433A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04707A491E42DE86008E433A /* main.m */; };
+		04707A4D1E42DE86008E433A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04707A4C1E42DE86008E433A /* AppDelegate.m */; };
+		04707A531E42DE87008E433A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04707A511E42DE87008E433A /* Main.storyboard */; };
+		04707A551E42DE87008E433A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04707A541E42DE87008E433A /* Assets.xcassets */; };
+		04707A581E42DE87008E433A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04707A561E42DE87008E433A /* LaunchScreen.storyboard */; };
+		04A797711E5BF50E00E46955 /* FileListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A797701E5BF50E00E46955 /* FileListTableViewController.m */; };
+		04A7977A1E5BF93F00E46955 /* 0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 04A797761E5BF93F00E46955 /* 0.jpg */; };
+		04A7977B1E5BF93F00E46955 /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 04A797771E5BF93F00E46955 /* 1.jpg */; };
+		04A7977C1E5BF93F00E46955 /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 04A797781E5BF93F00E46955 /* 2.jpg */; };
+		04A7977D1E5BF93F00E46955 /* 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 04A797791E5BF93F00E46955 /* 3.jpg */; };
+		04A7978C1E5C032800E46955 /* PerfomingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A7978B1E5C032800E46955 /* PerfomingViewController.m */; };
+		04A7978F1E5C033C00E46955 /* MailManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A7978E1E5C033C00E46955 /* MailManager.m */; };
+		04D266B01E45CEDE00647FB5 /* wechat_Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 04D266AF1E45CEDE00647FB5 /* wechat_Info.plist */; };
+		04D266B21E45EE7600647FB5 /* baoxiaoben_Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 04D266B11E45EE7600647FB5 /* baoxiaoben_Info.plist */; };
+		BAABB5383EA16C924089FE7C /* libPods-EmailData.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A586C14577DBB92EB4B68882 /* libPods-EmailData.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		04707A721E434202008E433A /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		04707A451E42DE86008E433A /* EmailData.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EmailData.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		04707A491E42DE86008E433A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		04707A4B1E42DE86008E433A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		04707A4C1E42DE86008E433A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		04707A521E42DE87008E433A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		04707A541E42DE87008E433A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		04707A571E42DE87008E433A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		04707A591E42DE87008E433A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04A7976E1E5BF33700E46955 /* GlobalDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GlobalDefines.h; sourceTree = "<group>"; };
+		04A7976F1E5BF50E00E46955 /* FileListTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileListTableViewController.h; sourceTree = "<group>"; };
+		04A797701E5BF50E00E46955 /* FileListTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FileListTableViewController.m; sourceTree = "<group>"; };
+		04A797761E5BF93F00E46955 /* 0.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 0.jpg; sourceTree = "<group>"; };
+		04A797771E5BF93F00E46955 /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
+		04A797781E5BF93F00E46955 /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpg; sourceTree = "<group>"; };
+		04A797791E5BF93F00E46955 /* 3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.jpg; sourceTree = "<group>"; };
+		04A7978A1E5C032800E46955 /* PerfomingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PerfomingViewController.h; sourceTree = "<group>"; };
+		04A7978B1E5C032800E46955 /* PerfomingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PerfomingViewController.m; sourceTree = "<group>"; };
+		04A7978D1E5C033C00E46955 /* MailManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MailManager.h; sourceTree = "<group>"; };
+		04A7978E1E5C033C00E46955 /* MailManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MailManager.m; sourceTree = "<group>"; };
+		04D266AC1E4429D800647FB5 /* EmailData.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = EmailData.entitlements; sourceTree = "<group>"; };
+		04D266AF1E45CEDE00647FB5 /* wechat_Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = wechat_Info.plist; sourceTree = "<group>"; };
+		04D266B11E45EE7600647FB5 /* baoxiaoben_Info.plist */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = baoxiaoben_Info.plist; sourceTree = "<group>"; };
+		8E0506CFD3AE8024558273B5 /* Pods-EmailData.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EmailData.release.xcconfig"; path = "Pods/Target Support Files/Pods-EmailData/Pods-EmailData.release.xcconfig"; sourceTree = "<group>"; };
+		A02C52B7D0E09BB815B91D27 /* Pods-EmailData.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EmailData.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EmailData/Pods-EmailData.debug.xcconfig"; sourceTree = "<group>"; };
+		A586C14577DBB92EB4B68882 /* libPods-EmailData.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-EmailData.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04707A421E42DE86008E433A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAABB5383EA16C924089FE7C /* libPods-EmailData.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04707A3C1E42DE86008E433A = {
+			isa = PBXGroup;
+			children = (
+				04707A471E42DE86008E433A /* EmailData */,
+				04707A461E42DE86008E433A /* Products */,
+				368EA8472FCEAB277AEF5962 /* Pods */,
+				4E625C49F9A979FC95EEEE87 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		04707A461E42DE86008E433A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04707A451E42DE86008E433A /* EmailData.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04707A471E42DE86008E433A /* EmailData */ = {
+			isa = PBXGroup;
+			children = (
+				04A797751E5BF91000E46955 /* files */,
+				04D266AE1E45CE9900647FB5 /* otherAppsPlist */,
+				04D266AC1E4429D800647FB5 /* EmailData.entitlements */,
+				04707A4B1E42DE86008E433A /* AppDelegate.h */,
+				04707A4C1E42DE86008E433A /* AppDelegate.m */,
+				04A7976E1E5BF33700E46955 /* GlobalDefines.h */,
+				04A7976F1E5BF50E00E46955 /* FileListTableViewController.h */,
+				04A797701E5BF50E00E46955 /* FileListTableViewController.m */,
+				04A7978A1E5C032800E46955 /* PerfomingViewController.h */,
+				04A7978B1E5C032800E46955 /* PerfomingViewController.m */,
+				04A7978D1E5C033C00E46955 /* MailManager.h */,
+				04A7978E1E5C033C00E46955 /* MailManager.m */,
+				04707A511E42DE87008E433A /* Main.storyboard */,
+				04707A541E42DE87008E433A /* Assets.xcassets */,
+				04707A561E42DE87008E433A /* LaunchScreen.storyboard */,
+				04707A591E42DE87008E433A /* Info.plist */,
+				04707A481E42DE86008E433A /* Supporting Files */,
+			);
+			path = EmailData;
+			sourceTree = "<group>";
+		};
+		04707A481E42DE86008E433A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				04707A491E42DE86008E433A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		04A797751E5BF91000E46955 /* files */ = {
+			isa = PBXGroup;
+			children = (
+				04A797761E5BF93F00E46955 /* 0.jpg */,
+				04A797771E5BF93F00E46955 /* 1.jpg */,
+				04A797781E5BF93F00E46955 /* 2.jpg */,
+				04A797791E5BF93F00E46955 /* 3.jpg */,
+			);
+			name = files;
+			sourceTree = "<group>";
+		};
+		04D266AE1E45CE9900647FB5 /* otherAppsPlist */ = {
+			isa = PBXGroup;
+			children = (
+				04D266B11E45EE7600647FB5 /* baoxiaoben_Info.plist */,
+				04D266AF1E45CEDE00647FB5 /* wechat_Info.plist */,
+			);
+			name = otherAppsPlist;
+			sourceTree = "<group>";
+		};
+		368EA8472FCEAB277AEF5962 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A02C52B7D0E09BB815B91D27 /* Pods-EmailData.debug.xcconfig */,
+				8E0506CFD3AE8024558273B5 /* Pods-EmailData.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		4E625C49F9A979FC95EEEE87 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A586C14577DBB92EB4B68882 /* libPods-EmailData.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04707A441E42DE86008E433A /* EmailData */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04707A5C1E42DE87008E433A /* Build configuration list for PBXNativeTarget "EmailData" */;
+			buildPhases = (
+				2EDEBB067317E2E07AE5054E /* [CP] Check Pods Manifest.lock */,
+				04707A411E42DE86008E433A /* Sources */,
+				04707A421E42DE86008E433A /* Frameworks */,
+				04707A431E42DE86008E433A /* Resources */,
+				04707A721E434202008E433A /* Embed App Extensions */,
+				BBAED3838BDE52F9BEF22509 /* [CP] Embed Pods Frameworks */,
+				8518D528E5316BEA46D208BF /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EmailData;
+			productName = EmailData;
+			productReference = 04707A451E42DE86008E433A /* EmailData.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04707A3D1E42DE86008E433A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = chc;
+				TargetAttributes = {
+					04707A441E42DE86008E433A = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = S3RLENKLD6;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 0;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 04707A401E42DE86008E433A /* Build configuration list for PBXProject "EmailData" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04707A3C1E42DE86008E433A;
+			productRefGroup = 04707A461E42DE86008E433A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04707A441E42DE86008E433A /* EmailData */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04707A431E42DE86008E433A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04A7977C1E5BF93F00E46955 /* 2.jpg in Resources */,
+				04707A581E42DE87008E433A /* LaunchScreen.storyboard in Resources */,
+				04707A551E42DE87008E433A /* Assets.xcassets in Resources */,
+				04A7977B1E5BF93F00E46955 /* 1.jpg in Resources */,
+				04D266B21E45EE7600647FB5 /* baoxiaoben_Info.plist in Resources */,
+				04A7977A1E5BF93F00E46955 /* 0.jpg in Resources */,
+				04D266B01E45CEDE00647FB5 /* wechat_Info.plist in Resources */,
+				04A7977D1E5BF93F00E46955 /* 3.jpg in Resources */,
+				04707A531E42DE87008E433A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2EDEBB067317E2E07AE5054E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8518D528E5316BEA46D208BF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EmailData/Pods-EmailData-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BBAED3838BDE52F9BEF22509 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EmailData/Pods-EmailData-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04707A411E42DE86008E433A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04707A4D1E42DE86008E433A /* AppDelegate.m in Sources */,
+				04707A4A1E42DE86008E433A /* main.m in Sources */,
+				04A797711E5BF50E00E46955 /* FileListTableViewController.m in Sources */,
+				04A7978F1E5C033C00E46955 /* MailManager.m in Sources */,
+				04A7978C1E5C032800E46955 /* PerfomingViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		04707A511E42DE87008E433A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04707A521E42DE87008E433A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		04707A561E42DE87008E433A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04707A571E42DE87008E433A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		04707A5A1E42DE87008E433A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		04707A5B1E42DE87008E433A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04707A5D1E42DE87008E433A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A02C52B7D0E09BB815B91D27 /* Pods-EmailData.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = S3RLENKLD6;
+				INFOPLIST_FILE = EmailData/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.dot99.EmailData;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		04707A5E1E42DE87008E433A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E0506CFD3AE8024558273B5 /* Pods-EmailData.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = S3RLENKLD6;
+				INFOPLIST_FILE = EmailData/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.dot99.EmailData;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04707A401E42DE86008E433A /* Build configuration list for PBXProject "EmailData" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04707A5A1E42DE87008E433A /* Debug */,
+				04707A5B1E42DE87008E433A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04707A5C1E42DE87008E433A /* Build configuration list for PBXNativeTarget "EmailData" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04707A5D1E42DE87008E433A /* Debug */,
+				04707A5E1E42DE87008E433A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 04707A3D1E42DE86008E433A /* Project object */;
+}
