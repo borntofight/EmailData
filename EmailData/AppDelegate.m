@@ -19,6 +19,9 @@
     // Override point for customization after application launch.
     
     //!!
+    //
+    //
+    
     [self initFiles];
     self.tabBarController = [[UITabBarController alloc] init];
     self.tabBarController.view.backgroundColor = [UIColor whiteColor];
